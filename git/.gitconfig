@@ -1,0 +1,7 @@
+[init]
+	defaultBranch = master
+[credentials]
+	helper = store
+[user]
+	email = ${configEmail}
+	name = ${configUsername}

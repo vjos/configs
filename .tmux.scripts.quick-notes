@@ -1,6 +1,0 @@
-#!/bin/bash
-
-mkdir -p ~/quick-notes
-
-echo $(date | awk -F' ' '{print $6$2$3"-"$4".txt"}')
-
