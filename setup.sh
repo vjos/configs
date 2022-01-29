@@ -9,6 +9,7 @@ export outputDir=~
 
 # git
 envsubst < git/.gitconfig > $outputDir/.gitconfig
+git config --global credential.helper 'store --file ~/.my-credentials'
 
 # tmux 
 cp -a tmux/. $outputDir 

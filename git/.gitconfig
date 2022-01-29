@@ -5,3 +5,7 @@
 [user]
 	email = ${configEmail}
 	name = ${configUsername}
+[credential]
+	helper = store
+[core]
+	editor = vim
