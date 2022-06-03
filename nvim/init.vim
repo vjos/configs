@@ -35,6 +35,9 @@ set cursorline
 set termguicolors
 set wildmenu
 
+" enable clipboard yank/paste
+set clipboard+=unnamedplus
+
 let g:lightline = {
   \ 'colorscheme': 'darcula',
   \}
